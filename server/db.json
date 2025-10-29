@@ -1,3 +1,17 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "id": "33a4",
+      "title": "Refactor CSS for responsive design"
+    },
+    {
+      "id": "c347",
+      "title": "Test edge cases in API integration"
+    },
+    {
+      "id": "b3ae",
+      "title": "Complete React Todo List project",
+      "completed": true
+    }
+  ]
 }

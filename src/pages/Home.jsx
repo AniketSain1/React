@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import api from '../api/axios';
-import TodoList from '../components/Todolist';
+import TodoList from '../components/TodoList.jsx';
 
 
 function Home() {

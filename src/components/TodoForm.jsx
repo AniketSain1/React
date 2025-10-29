@@ -28,8 +28,8 @@ function TodoForm({ onSuccess }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input 
+    <form onSubmit={handleSubmit} style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+      <input style={{height:'30px', fontSize:"20px"}}
         value={task.title}
         onChange={e => setTask({...prompt, "title":e.target.value})}
         placeholder="Enter new todo"

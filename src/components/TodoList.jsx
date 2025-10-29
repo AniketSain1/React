@@ -4,7 +4,7 @@ import TodoItem from './TodoItem';
 
 function TodoList({ todos, setTodos }) {
   return (
-    <ul>
+    <ul >
       {todos.map((todo) => (
         <TodoItem key={todo.id} todo={todo} setTodos={setTodos} />
       ))}
